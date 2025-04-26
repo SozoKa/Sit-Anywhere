@@ -1,9 +1,9 @@
 {
 	"pack": {
-		"pack_format": 50,
+		"pack_format": 61,
 		"supported_formats": {
 			"min_inclusive": 12,
-			"max_inclusive": 50
+			"max_inclusive": 61
 		},
 		"description": "§8By §cSozoKa §8- §7Allows you to sit anywhere you'd like!"
 	},
