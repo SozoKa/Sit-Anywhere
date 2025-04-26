@@ -16,6 +16,19 @@
 2.1.0
 * Added easy sit on stairs and slabs (just stand and right click on them)
 * Added a small message to indicate you can rightclick to sit
+* Fixed - issue when leaving your seat by mounting another entity
 
 2.1.1
 * Now only works with "bottom slabs" only
+
+2.2.0
+# QUALITY OF LIFE UPDATE
+* You now have to double sneak to activate global sit ! (was often interfering while building)
+* You now have to look between X-rot 85 and 90 to be able to sit (was 90 only) so it's less restrictive/frustrating
+* Reduced hitbox of interaction entity a bit so other players can place block on the side of the one you're standing on
+# BUG FIXES & MISSING FEATURES
+* Fixed - other players could use your interaction entity to sit on the block you're standing on when they are not themselves on the same block as you
+* Fixed - "right click to sit" message was sent to near players
+* Fixed - apparition and removal of interaction entities
+* Removed - useless function
+* Added - new message for slabs and stairs "Right Click to sit" instead of "Unhold Sneak and Right Click to Sit" like for global sitting

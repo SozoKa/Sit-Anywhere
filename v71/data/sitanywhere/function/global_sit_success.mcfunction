@@ -8,7 +8,5 @@
 # A little credit is still apreciated :)
 # 
 
-kill @e[type=block_display,tag=sit,limit=1,sort=nearest]
-tag @s remove is_sitting
-playsound minecraft:item.bundle.insert player @s ~ ~ ~ 1 1.25
-tp @s ~ ~.5 ~
+scoreboard players set @s sitanywhere_sneak_parameter 1
+summon interaction ~ ~ ~ {Tags:["sit","global"],width:0.01F,height:1.8F}

@@ -8,7 +8,5 @@
 # A little credit is still apreciated :)
 # 
 
-kill @e[type=block_display,tag=sit,limit=1,sort=nearest]
-tag @s remove is_sitting
-playsound minecraft:item.bundle.insert player @s ~ ~ ~ 1 1.25
-tp @s ~ ~.5 ~
+execute if score @s sitanywhere_sneak_parameter matches 1..2 run function sitanywhere:global_sit_success
+execute unless score @s sitanywhere_sneak_parameter matches 1.. run scoreboard players set @s sitanywhere_sneak_parameter 3
