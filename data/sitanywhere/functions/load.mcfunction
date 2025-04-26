@@ -8,4 +8,4 @@
 # A little credit is still apreciated :)
 # 
 
-tellraw @a {"text":"§7■§6§l Sit Anywhere  §8§l| §7By §cSozoKa §8- §7(re)loaded!"}
+tellraw @a {"text":"§7■§6§l Sit Anywhere §8§l| §7By §cSozoKa §8- §7(re)loaded!"}

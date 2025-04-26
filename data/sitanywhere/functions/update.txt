@@ -1,0 +1,2 @@
+- Removed useless function
+* Fixed a bug that somehow made the datapack multiplayer incompatible
