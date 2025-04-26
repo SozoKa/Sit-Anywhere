@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"Right click on \"Sit Anywhere!\" interaction": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:interaction",
+					"nbt": "{Tags:[\"sit\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "sitanywherev50:sit_on_block"
+	}
+}

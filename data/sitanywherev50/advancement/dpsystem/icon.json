@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:mangrove_stairs"
+		},
+		"title": "Sit Anywhere!",
+		"description": "§8Made in §c1.21.1\n§8v1.1.1\n\n§7Look all the way down, sneak, rightclick... Boom, you now sit on the block!\n\n§8by §cSozoKa",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "sozoka:root",
+	"criteria": {
+		"Install \"Sit Anywhere!\" datapack": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

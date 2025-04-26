@@ -1,0 +1,6 @@
+1.1.0
+- Removed useless function
+* Fixed a bug that somehow made the datapack multiplayer incompatible
+
+1.1.1
++ made compatible withq versions 1.19.4 to 1.21.1

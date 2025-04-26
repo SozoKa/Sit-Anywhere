@@ -1,6 +1,59 @@
 {
 	"pack": {
-		"description": "§8By §cSozoKa §8- §7Allows you to sit anywhere you'd like!",
-		"pack_format": 15
+		"pack_format": 50,
+		"supported_formats": {
+			"min_inclusive": 12,
+			"max_inclusive": 50
+		},
+		"description": "§8By §cSozoKa §8- §7Allows you to sit anywhere you'd like!"
+	},
+	"overlays": {
+		"entries": [
+
+			{
+				"formats": {
+					"min_inclusive": 12,
+					"max_inclusive": 42
+				},
+				"directory": "sozoka/advancements"
+			},
+			{
+				"formats": {
+					"min_inclusive": 43,
+					"max_inclusive": 50
+				},
+				"directory": "sozoka/advancement"
+			},
+
+			{
+				"formats": {
+					"min_inclusive": 12,
+					"max_inclusive": 44
+				},
+				"directory": "minecraft/tags/functions"
+			},
+			{
+				"formats": {
+					"min_inclusive": 45,
+					"max_inclusive": 50
+				},
+				"directory": "minecraft/tags/function"
+			},
+			
+			{
+				"formats": {
+					"min_inclusive": 12,
+					"max_inclusive": 42
+				},
+				"directory": "sitanywhere"
+			},
+			{
+				"formats": {
+					"min_inclusive": 43,
+					"max_inclusive": 50
+				},
+				"directory": "sitanywhere-v50"
+			}
+		]
 	}
 }
