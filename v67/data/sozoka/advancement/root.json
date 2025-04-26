@@ -10,7 +10,7 @@
 		},
 		"title": "§c§lSozoKa",
 		"description": "§7The list of all the SozoKa Datapacks you have installed in your world!",
-		"background": "minecraft:textures/block/red_terracotta.png",
+		"background": "minecraft:block/red_terracotta",
 		"frame": "challenge",
 		"show_toast": false,
 		"announce_to_chat": false,

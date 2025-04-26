@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "sitanywherev50:sit_on_block"
+		"function": "sitanywhere:sit_on_block"
 	}
 }
