@@ -32,3 +32,7 @@
 * Fixed - apparition and removal of interaction entities
 * Removed - useless function
 * Added - new message for slabs and stairs "Right Click to sit" instead of "Unhold Sneak and Right Click to Sit" like for global sitting
+
+2.2.1
+* Now only works with "bottom stairs" only... yeah a feeling of deja vu, isn't it?
+* Removed - message for slabs and stairs "Right Click to sit" because I found it annoying
