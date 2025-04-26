@@ -16,3 +16,6 @@
 2.1.0
 * Added easy sit on stairs and slabs (just stand and right click on them)
 * Added a small message to indicate you can rightclick to sit
+
+2.1.1
+* Now only works with "bottom slabs" only

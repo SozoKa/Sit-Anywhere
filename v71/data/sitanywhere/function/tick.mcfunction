@@ -17,7 +17,7 @@ execute as @a at @s as @e[distance=..3,type=interaction,tag=sit,tag=global] at @
 
 ## test for player that want to sit on stair / slab
 execute as @a[predicate=!sitanywhere:is_sneaking,x_rotation=45..] at @s if block ~ ~-.1 ~ #minecraft:stairs unless entity @e[type=interaction,tag=sit,distance=..1] positioned ~ ~-0.1 ~ align xyz run summon interaction ~.495 ~ ~.495 {Tags:["sit","stair_or_slab"],width:1.01F,height:1.01F}
-execute as @a[predicate=!sitanywhere:is_sneaking,x_rotation=45..] at @s if block ~ ~-.1 ~ #minecraft:slabs unless entity @e[type=interaction,tag=sit,distance=..1] positioned ~ ~-0.1 ~ align xyz run summon interaction ~.495 ~ ~.495 {Tags:["sit","stair_or_slab"],width:1.01F,height:0.51F}
+execute as @a[predicate=!sitanywhere:is_sneaking,x_rotation=45..] at @s if block ~ ~-.1 ~ #minecraft:slabs[type=bottom] unless entity @e[type=interaction,tag=sit,distance=..1] positioned ~ ~-0.1 ~ align xyz run summon interaction ~.495 ~ ~.495 {Tags:["sit","stair_or_slab"],width:1.01F,height:0.51F}
 
 ## kill specific interaction entity if player does not meet the condition anymore
 execute as @a[predicate=!sitanywhere:is_sneaking,x_rotation=..45] at @s if entity @e[type=interaction,tag=sit,tag=stair_or_slab,distance=..1.5] run kill @e[type=interaction,tag=sit,tag=stair_or_slab,distance=..1.5]
