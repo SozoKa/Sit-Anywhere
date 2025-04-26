@@ -4,7 +4,7 @@
 		"description": "§7The list of all the SozoKa Datapacks you have installed in your world!",
 		"icon": {
 			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"SozoKa\"}"
+			"nbt": "{SkullOwner:SozoKa}"
 		},
 		"background": "minecraft:textures/block/red_terracotta.png",
 		"show_toast": false,
