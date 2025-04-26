@@ -8,7 +8,7 @@
 # A little credit is still apreciated :)
 # 
 
-advancement revoke @s only sitanywhere:detect_interaction
+advancement revoke @s only sitanywhere:detect_interaction_block
 summon minecraft:block_display ~ ~-.1 ~ {Tags:[sit]}
 ride @s mount @e[type=block_display,tag=sit,limit=1,sort=nearest]
 playsound minecraft:item.bundle.insert player @s ~ ~ ~ 1 0.8

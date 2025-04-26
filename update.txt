@@ -12,3 +12,7 @@
 * Rewrited the datapack to make it easier to update. But made it incompatible with older version.
 * Minecraft updates have broken the background of the advancements list.
 * Correction of the seating position, as all MC versions modify it slightly.
+
+2.1.0
+* Added easy sit on stairs and slabs (just stand and right click on them)
+* Added a small message to indicate you can rightclick to sit

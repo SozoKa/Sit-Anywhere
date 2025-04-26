@@ -1,8 +1,8 @@
 {
 	"pack": {
-		"pack_format": 67,
+		"pack_format": 71,
 		"supported_formats": {
-			"min_inclusive": 67,
+			"min_inclusive": 71,
 			"max_inclusive": 999
 		},
 		"description": "§8By §cSozoKa §8- §7Allows you to sit anywhere you'd like!"
@@ -12,10 +12,10 @@
 
 			{
 				"formats": {
-					"min_inclusive": 67,
+					"min_inclusive": 48,
 					"max_inclusive": 999
 				},
-				"directory": "v67"
+				"directory": "v71"
 			}
 		]
 	}
