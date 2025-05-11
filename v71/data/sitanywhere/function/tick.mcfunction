@@ -17,12 +17,12 @@ execute as @a[predicate=!sitanywhere:is_sneaking,x_rotation=..85] at @s if entit
 execute as @a at @s as @e[distance=..3,type=interaction,tag=sit,tag=global] at @s unless entity @p[distance=..0.01] run kill @s
 
 ## test for player that want to sit on stair / slab
-execute as @a[tag=!is_sitting,predicate=!sitanywhere:is_sneaking,x_rotation=45..] at @s if block ~ ~-.1 ~ #minecraft:stairs[half=bottom] unless entity @e[type=interaction,tag=sit,distance=..1.5] positioned ~ ~-0.1 ~ align xyz run summon interaction ~.501 ~ ~.501 {Tags:["sit","stair_or_slab"],width:0.98F,height:1.01F}
-execute as @a[tag=!is_sitting,predicate=!sitanywhere:is_sneaking,x_rotation=45..] at @s if block ~ ~-.1 ~ #minecraft:slabs[type=bottom] unless entity @e[type=interaction,tag=sit,distance=..1] positioned ~ ~-0.1 ~ align xyz run summon interaction ~.501 ~ ~.501 {Tags:["sit","stair_or_slab"],width:0.98F,height:0.51F}
+execute as @a[tag=!is_sitting,predicate=!sitanywhere:is_sneaking,x_rotation=45..90] at @s if block ~ ~-.1 ~ #minecraft:stairs[half=bottom] unless entity @e[type=interaction,tag=sit,distance=..1.5] positioned ~ ~-0.1 ~ align xyz run summon interaction ~.501 ~ ~.501 {Tags:["sit","stair_or_slab"],width:0.98F,height:1.01F}
+execute as @a[tag=!is_sitting,predicate=!sitanywhere:is_sneaking,x_rotation=45..90] at @s if block ~ ~-.1 ~ #minecraft:slabs[type=bottom] unless entity @e[type=interaction,tag=sit,distance=..1] positioned ~ ~-0.1 ~ align xyz run summon interaction ~.501 ~ ~.501 {Tags:["sit","stair_or_slab"],width:0.98F,height:0.51F}
 
 ## kill specific interaction entity if player does not meet the condition anymore
-execute as @a[predicate=!sitanywhere:is_sneaking,x_rotation=..45] at @s if entity @e[type=interaction,tag=site ,distance=..1.5] run kill @e[type=interaction,tag=sit,tag=stair_or_slab,distance=..1.5]
-execute as @a[predicate=sitanywhere:is_sneaking] at @s if entity @e[type=interaction,tag=sit,distance=..1.5] run kill @e[type=interaction,tag=sit,tag=stair_or_slab,distance=..1.5]
+execute as @a[predicate=!sitanywhere:is_sneaking,x_rotation=-90..45] at @s if entity @e[type=interaction,tag=sit,tag=stair_or_slab,distance=..1.5] run kill @e[type=interaction,tag=sit,tag=stair_or_slab,distance=..1.5]
+execute as @a[predicate=sitanywhere:is_sneaking] at @s if entity @e[type=interaction,tag=sit,tag=stair_or_slab,distance=..1.5] run kill @e[type=interaction,tag=sit,tag=stair_or_slab,distance=..1.5]
 execute as @e[type=interaction,tag=sit,tag=stair_or_slab] at @s at @p align xyz positioned ~.5 ~ ~.5 unless entity @s[distance=...01] positioned ~ ~-1 ~ unless entity @s[distance=...01] run kill @s
 
 ## action bar message
@@ -37,4 +37,5 @@ execute as @a[tag=is_sitting] unless data entity @s RootVehicle.Entity.block_sta
 
 ## custom sit command "trigger"
 scoreboard players enable @a[tag=!is_sitting] sit
-execute as @a[tag=!is_sitting] if score @s sit matches 1.. run function sitanywhere:sit_on_block
+execute as @a[tag=!is_sitting] if score @s sit matches 1.. at @s if block ~ ~-1 ~ air run function sitanywhere:cant_use_command
+execute as @a[tag=!is_sitting] if score @s sit matches 1.. at @s unless block ~ ~-1 ~ air run function sitanywhere:sit_on_block

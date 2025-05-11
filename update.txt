@@ -41,3 +41,8 @@
 * Fixed a bug that spawned infinite interactions
 * Fixed a bug where you could "sit" on stair while already sitting on a global sit. Which does not work and spawn useless entities
 * Added "/trigger sit" command!
+
+2.3.1 MC-1.21.x
+* Fixed a typo I made in previous update...
+* And the sit command was broken.
+* Added conditions to use sit command
