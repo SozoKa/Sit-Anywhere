@@ -6,6 +6,8 @@ To be able to sit on any surface that you want just look all the way down, quick
 
 To sit on a slab or on stairs, just stand on it and right click it. As simple as that.
 
+Or just use /trigger sit (only in 2.3.0+)
+
 https://www.youtube.com/embed/BWtH6_-mDMw?si=AJPLYbOrlK8Yemnn
 
 ## 🤔 Why is this project better than the others?

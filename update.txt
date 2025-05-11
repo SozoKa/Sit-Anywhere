@@ -36,3 +36,8 @@
 2.2.1
 * Now only works with "bottom stairs" only... yeah a feeling of deja vu, isn't it?
 * Removed - message for slabs and stairs "Right Click to sit" because I found it annoying
+
+2.3.0 MC-1.21.x
+* Fixed a bug that spawned infinite interactions
+* Fixed a bug where you could "sit" on stair while already sitting on a global sit. Which does not work and spawn useless entities
+* Added "/trigger sit" command!

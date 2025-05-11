@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "SozoKa"
+				}
+			}
+		},
+		"title": "§c§lSozoKa",
+		"description": "§7The list of all the SozoKa Datapacks you have installed in your world!",
+		"background": "minecraft:textures/block/red_terracotta.png",
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"Install a datapack made by SozoKa": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

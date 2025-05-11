@@ -8,7 +8,5 @@
 # A little credit is still apreciated :)
 # 
 
-tellraw @a {"text":"§7■§6§l Sit Anywhere §8§l| §7By §cSozoKa §8- §7running!"}
-
-scoreboard objectives add sitanywhere_sneak_parameter dummy
-scoreboard objectives add sit trigger
+execute if score @s sitanywhere_sneak_parameter matches 1..2 run function sitanywhere:global_sit_success
+execute unless score @s sitanywhere_sneak_parameter matches 1.. run scoreboard players set @s sitanywhere_sneak_parameter 3
