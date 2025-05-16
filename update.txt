@@ -46,3 +46,6 @@
 * Fixed a typo I made in previous update...
 * And the sit command was broken.
 * Added conditions to use sit command
+
+2.3.1b MC-1.21.x
+* The mod version was not working for Fabric and Quilt.
