@@ -8,7 +8,7 @@ To sit on a slab or on stairs, just stand on it and right click it. As simple as
 
 Or just use /trigger sit (only in 2.3.0+)
 
-https://www.youtube.com/embed/BWtH6_-mDMw?si=AJPLYbOrlK8Yemnn
+https://github.com/user-attachments/assets/d8a298a0-e372-4cb1-a4d8-b141d991131d
 
 ## 🤔 Why is this project better than the others?
 - Because it's primarily a datapack, that means you just drop it on your map or server and anyone can use it without having to install anything!
