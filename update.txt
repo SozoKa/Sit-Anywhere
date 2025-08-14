@@ -49,3 +49,6 @@
 
 2.3.1b MC-1.21.x
 * The mod version was not working for Fabric and Quilt.
+
+2.3.2 MC-1.21.x
+* Updated for 1.21.9+ compatibility
