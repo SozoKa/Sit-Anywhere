@@ -8,17 +8,11 @@
 	},
 	"overlays": {
 		"entries": [
-
-			{
-				"formats": [48, 61],
-				"directory": "v48"
-			},
-
 			{
 				"formats": [71, 81],
 				"min_format": 71,
 				"max_format": 999,
-				"directory": "v71"
+				"directory": "v71-1.21.5"
 			}
 		]
 	}

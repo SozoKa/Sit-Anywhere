@@ -52,3 +52,6 @@
 
 2.3.2 MC-1.21.x
 * Updated for 1.21.9+ compatibility
+
+2.3.3 MC-1.21.x
+* Reworked overlays (now that i understand them properly...)
