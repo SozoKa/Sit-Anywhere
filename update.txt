@@ -55,3 +55,7 @@
 
 2.3.3 MC-1.21.x
 * Reworked overlays (now that i understand them properly...)
+
+2.3.4 MC-1.21.x
+- Made the loading message appear only if you have the tag "convention.debug"
+- Moved the datapack's advancements icons to the community's convention tab. 

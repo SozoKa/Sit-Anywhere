@@ -8,17 +8,16 @@
 				}
 			}
 		},
-		"title": "§c§lSozoKa",
-		"description": "§7The list of all the SozoKa Datapacks you have installed in your world!",
-		"background": "minecraft:textures/block/red_terracotta.png",
-		"frame": "challenge",
+		"title": "SozoKa",
+		"description": "",
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": false
 	},
+	"parent": "global:root",
 	"criteria": {
 		"Install a datapack made by SozoKa": {
-			"trigger": "minecraft:impossible"
+			"trigger": "minecraft:tick"
 		}
 	}
 }
