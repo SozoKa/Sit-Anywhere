@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:paper"
+		},
+		"title": "2.3.2 - 2025/08/14",
+		"description": "§7* Updated for 1.21.9+ compatibility",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "sitanywhere:dpsystem/changelog/2.3.1",
+	"criteria": {
+		".": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

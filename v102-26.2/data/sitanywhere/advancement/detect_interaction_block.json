@@ -5,12 +5,12 @@
 			"conditions": {
 				"entity": {
 					"entity_type": "minecraft:interaction",
-					"nbt": "{Tags:[\"sit\",\"stair_or_slab\"]}"
+					"nbt": "{Tags:[\"sit\",\"global\"]}"
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "sitanywhere:sit_on_stair_or_slab"
+		"function": "sitanywhere:sit_on_block"
 	}
 }

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:paper"
+		},
+		"title": "1.1.0 - 2023/07/14",
+		"description": "§7- Removed useless function\n* Fixed a bug that somehow made the datapack multiplayer incompatible",
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "sitanywhere:dpsystem/changelog/1.0.1",
+	"criteria": {
+		".": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

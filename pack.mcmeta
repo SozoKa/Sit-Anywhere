@@ -3,16 +3,22 @@
 		"pack_format": 48,
 		"supported_formats": [48, 81],
 		"min_format": 71,
-        "max_format": 999,
+    "max_format": 9999,
 		"description": "§8By §cSozoKa §7for §d1.21.x+ §8- §7Allows you to sit anywhere you'd like!"
 	},
 	"overlays": {
 		"entries": [
 			{
-				"formats": [71, 81],
+				"formats": [71, 9999],
 				"min_format": 71,
-				"max_format": 999,
+				"max_format": 9999,
 				"directory": "v71-1.21.5"
+			},
+			{
+				"formats": [102, 9999],
+				"min_format": 102,
+				"max_format": 9999,
+				"directory": "v102-26.2"
 			}
 		]
 	}

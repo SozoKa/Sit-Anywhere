@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:paper"
+		},
+		"title": "2.1.0 - 2025/03/30",
+		"description": "§7* Added easy sit on stairs and slabs (just stand and right click on them)\n* Added a small message to indicate you can rightclick to sit\n* Fixed - issue when leaving your seat by mounting another entity",
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "sitanywhere:dpsystem/changelog/2.0.0",
+	"criteria": {
+		".": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

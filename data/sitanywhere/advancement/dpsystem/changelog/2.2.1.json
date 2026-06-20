@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:paper"
+		},
+		"title": "2.2.1 - 2025/04/11",
+		"description": "§7* Now only works with \"bottom stairs\" only... yeah a feeling of deja vu, isn't it?\n* Removed - message for slabs and stairs \"Right Click to sit\" because I found it annoying",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "sitanywhere:dpsystem/changelog/2.2.0",
+	"criteria": {
+		".": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

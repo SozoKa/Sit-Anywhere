@@ -1,3 +1,10 @@
+1.0.0
+- Initial Release.
+
+1.0.1
+- Added version number in the icon's description in the SozoKa's advancement tab.
+- Fix : SozoKa's head (main icon) was broken in the SozoKa's advancement tab.
+
 1.1.0
 - Removed useless function
 * Fixed a bug that somehow made the datapack multiplayer incompatible
@@ -59,3 +66,7 @@
 2.3.4 MC-1.21.x
 - Made the loading message appear only if you have the tag "convention.debug"
 - Moved the datapack's advancements icons to the community's convention tab. 
+
+2.4.0 MC-1.21.x to 26.2
+- Fixed for 26.2
+- Added changelog to advancements page
