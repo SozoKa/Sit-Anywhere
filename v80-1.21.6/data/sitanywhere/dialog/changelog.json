@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:notice",
+  "title": [
+    "Sit Anywhere! - ",
+    {
+      "translate": "sitanywhere.changelog",
+      "fallback": "Changelog"
+    }
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§l3.0.0 | 1.20 - 26.3 (2026/08/17)\n§7§l# QUALITY OF LIFE\n§7- Added uninstall method (/function sitanywhere:-uninstall)\n§7- Added settings (/function sitanywhere:-settings)\n§7- Added dialog menus! (1.21.6+) Accessible via the pause menu. You will find infos about the datapack version, supported MC versions, settings, changelog, links and uninstall button\n§7- Added translatability! However, it only supports English for now.\n§7- Made compatible from 1.20 to 26.3 with only ONE datapack! - 3 years of version support B-) \n§7§l# BUG FIXES & TECHNICAL CHANGES\n§7- Fixed for 26.3\n§7- Rewriten the whole datapack to have better naming, files, ...\n§7- Small optimisation changes in all selectors\n§7- Changed player position when sitting: now always sit on top of the block and not a little inside\n§7- Removed all advancement icons in 1.21.6+, all infos are in the new dialog menus\n§7- Removed changelog from advancements in all versions, you'll only be able to see it in 1.21.6+ with the new dialog menus",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.3.5 | 1.21 - 26.2 (2026/06/20)§7\n§7- Fixed for 26.2\n§7- Added changelog to advancements page",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.3.4 | 1.21.x (2025/09/04)§7\n§7- Made the loading message appear only if you have the tag \"convention.debug\"\n§7- Moved the datapack's advancements icons to the community's convention tab.",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.3.3 | 1.21.x (2025/08/18)§7\n§7- Reworked overlays (now that i understand them properly...)",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.3.2 | 1.21.x (2025/08/14)§7\n§7- Updated for - 1.21.9+ compatibility",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.3.1b | 1.21.x (2025/05/16)§7\n§7- The mod version was not working for Fabric and Quilt.",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.3.1 | 1.21.x (2025/05/11)§7\n§7- Fixed a typo I made in previous update...\n§7- And the sit command was broken.\n§7- Added conditions to use sit command",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.3.0 | 1.21.x (2025/05/11)§7\n§7- Fixed a bug that spawned infinite interactions\n§7- Fixed a bug where you could \"sit\" on stair while already sitting on a global sit. Which does not work and spawn useless entities\n§7- Added \"/trigger sit\" command!",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.2.1 (2025/04/11)§7\n§7- Now only works with \"bottom stairs\" only... yeah a feeling of deja vu, isn't it?\n§7- Removed - message for slabs and stairs \"Right Click to sit\" because I found it annoying",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.2.0 (2025/04/03)§7\n§l# QUALITY OF LIFE UPDATE\n§7- You now have to double sneak to activate global sit ! (was often interfering while building)\n§7- You now have to look between X-rot 85 and 90 to be able to sit (was 90 only) so it's less restrictive/frustrating\n§7- Reduced hitbox of interaction entity a bit so other players can place block on the side of the one you're standing on\n§l# BUG FIXES & MISSING FEATURES\n§7- Fixed - other players could use your interaction entity to sit on the block you're standing on when they are not themselves on the same block as you\n§7- Fixed - \"right click to sit\" message was sent to near players\n§7- Fixed - apparition and removal of interaction entities\n§7- Removed - useless function\n§7- Added - new message for slabs and stairs \"Right Click to sit\" instead of \"Unhold Sneak and Right Click to Sit\" like for global sitting",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.1.1 (2025/03/30)§7\n§7- Now only works with \"bottom slabs\" only",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.1.0 (2025/03/30)§7\n§7- Added easy sit on stairs and slabs (just stand and right click on them)\n§7- Added a small message to indicate you can rightclick to sit\n§7- Fixed - issue when leaving your seat by mounting another entity",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l2.0.0 (2025/02/21)§7\n§7- Rewrited the datapack to make it easier to update. But縫 made it incompatible with older version.\n§7- Minecraft updates have broken the background of the advancements list.\n§7- Correction of the seating position, as all MC versions modify it slightly.",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l1.1.2 (2025/01/19)§7\n§7- Fixed a bug that allowed you to sit up in the air by breaking the block below you.",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l1.1.1 (2024/09/05)§7\n§7- Made compatible with versions 1.19.4 to 1.21.1",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l1.1.0 (2023/07/14)§7\n§7- Removed useless function\n§7- Fixed a bug that somehow made the datapack multiplayer incompatible",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l1.0.1 (2023/03/25)§7\n§7- Added version number in the icon's description in the SozoKa's advancement tab.\n§7- Fix : SozoKa's head (main icon) was broken in the SozoKa's advancement tab.",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "§f§l1.0.0 (2023/03/21)§7\n§7- Initial Release.",
+      "width": 300
+    }
+  ],
+  "can_close_with_escape": true,
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sitanywhere:about"
+    }
+  }
+}

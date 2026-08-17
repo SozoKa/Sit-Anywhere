@@ -1,0 +1,8 @@
+{
+	"parent": "sozoka:me",
+	"criteria": {
+		"Install \"SIT ANYWHERE\" datapack": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

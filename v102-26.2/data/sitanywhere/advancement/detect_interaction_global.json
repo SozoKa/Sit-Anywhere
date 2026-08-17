@@ -5,12 +5,12 @@
       "conditions": {
         "entity": {
           "entity_type": "minecraft:interaction",
-          "nbt": "{Tags:[\"sitanywhere_sit\",\"block\"]}"
+          "nbt": "{Tags:[\"sitanywhere_sit\",\"global\"]}"
         }
       }
     }
   },
   "rewards": {
-    "function": "sitanywhere:system/sit/block/init"
+    "function": "sitanywhere:system/sit/global/init"
   }
 }

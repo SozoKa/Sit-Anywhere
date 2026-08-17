@@ -1,72 +1,87 @@
-1.0.0
+1.0.0 (2023/03/21)
 - Initial Release.
 
-1.0.1
+1.0.1 (2023/03/25)
 - Added version number in the icon's description in the SozoKa's advancement tab.
 - Fix : SozoKa's head (main icon) was broken in the SozoKa's advancement tab.
 
-1.1.0
+1.1.0 (2023/07/14)
 - Removed useless function
-* Fixed a bug that somehow made the datapack multiplayer incompatible
+- Fixed a bug that somehow made the datapack multiplayer incompatible
 
-1.1.1
-+ made compatible with versions 1.19.4 to 1.21.1
+1.1.1 (2024/09/05)
+- Made compatible with versions 1.19.4 to 1.21.1
 
-1.1.2
-* Fixed a bug that allowed you to sit up in the air by breaking the block below you.
+1.1.2 (2025/01/19)
+- Fixed a bug that allowed you to sit up in the air by breaking the block below you.
 
-2.0.0
-* Rewrited the datapack to make it easier to update. But made it incompatible with older version.
-* Minecraft updates have broken the background of the advancements list.
-* Correction of the seating position, as all MC versions modify it slightly.
+2.0.0 (2025/02/21)
+- Rewrited the datapack to make it easier to update. But made it incompatible with older version.
+- Minecraft updates have broken the background of the advancements list.
+- Correction of the seating position, as all MC versions modify it slightly.
 
-2.1.0
-* Added easy sit on stairs and slabs (just stand and right click on them)
-* Added a small message to indicate you can rightclick to sit
-* Fixed - issue when leaving your seat by mounting another entity
+2.1.0 (2025/03/30)
+- Added easy sit on stairs and slabs (just stand and right click on them)
+- Added a small message to indicate you can rightclick to sit
+- Fixed - issue when leaving your seat by mounting another entity
 
-2.1.1
-* Now only works with "bottom slabs" only
+2.1.1 (2025/03/30)
+- Now only works with "bottom slabs" only
 
-2.2.0
+2.2.0 (2025/04/03)
 # QUALITY OF LIFE UPDATE
-* You now have to double sneak to activate global sit ! (was often interfering while building)
-* You now have to look between X-rot 85 and 90 to be able to sit (was 90 only) so it's less restrictive/frustrating
-* Reduced hitbox of interaction entity a bit so other players can place block on the side of the one you're standing on
+- You now have to double sneak to activate global sit ! (was often interfering while building)
+- You now have to look between X-rot 85 and 90 to be able to sit (was 90 only) so it's less restrictive/frustrating
+- Reduced hitbox of interaction entity a bit so other players can place block on the side of the one you're standing on
 # BUG FIXES & MISSING FEATURES
-* Fixed - other players could use your interaction entity to sit on the block you're standing on when they are not themselves on the same block as you
-* Fixed - "right click to sit" message was sent to near players
-* Fixed - apparition and removal of interaction entities
-* Removed - useless function
-* Added - new message for slabs and stairs "Right Click to sit" instead of "Unhold Sneak and Right Click to Sit" like for global sitting
+- Fixed - other players could use your interaction entity to sit on the block you're standing on when they are not themselves on the same block as you
+- Fixed - "right click to sit" message was sent to near players
+- Fixed - apparition and removal of interaction entities
+- Removed - useless function
+- Added - new message for slabs and stairs "Right Click to sit" instead of "Unhold Sneak and Right Click to Sit" like for global sitting
 
-2.2.1
-* Now only works with "bottom stairs" only... yeah a feeling of deja vu, isn't it?
-* Removed - message for slabs and stairs "Right Click to sit" because I found it annoying
+2.2.1 (2025/04/11)
+- Now only works with "bottom stairs" only... yeah a feeling of deja vu, isn't it?
+- Removed - message for slabs and stairs "Right Click to sit" because I found it annoying
 
-2.3.0 MC-1.21.x
-* Fixed a bug that spawned infinite interactions
-* Fixed a bug where you could "sit" on stair while already sitting on a global sit. Which does not work and spawn useless entities
-* Added "/trigger sit" command!
+2.3.0 | 1.21.x (2025/05/11)
+- Fixed a bug that spawned infinite interactions
+- Fixed a bug where you could "sit" on stair while already sitting on a global sit. Which does not work and spawn useless entities
+- Added "/trigger sit" command!
 
-2.3.1 MC-1.21.x
-* Fixed a typo I made in previous update...
-* And the sit command was broken.
-* Added conditions to use sit command
+2.3.1 | 1.21.x (2025/05/11)
+- Fixed a typo I made in previous update...
+- And the sit command was broken.
+- Added conditions to use sit command
 
-2.3.1b MC-1.21.x
-* The mod version was not working for Fabric and Quilt.
+2.3.1b | 1.21.x (2025/05/16)
+- The mod version was not working for Fabric and Quilt.
 
-2.3.2 MC-1.21.x
-* Updated for 1.21.9+ compatibility
+2.3.2 | 1.21.x (2025/08/14)
+- Updated for - 1.21.9+ compatibility
 
-2.3.3 MC-1.21.x
-* Reworked overlays (now that i understand them properly...)
+2.3.3 | 1.21.x (2025/08/18)
+- Reworked overlays (now that i understand them properly...)
 
-2.3.4 MC-1.21.x
+2.3.4 | 1.21.x (2025/09/04)
 - Made the loading message appear only if you have the tag "convention.debug"
 - Moved the datapack's advancements icons to the community's convention tab. 
 
-2.4.0 MC-1.21.x to 26.2
+2.3.5 | 1.21 - 26.2 (2026/06/20)
 - Fixed for 26.2
 - Added changelog to advancements page
+
+3.0.0 | 1.20 - 26.3 (2026/08/17)
+# QUALITY OF LIFE
+- Added uninstall method (/function sitanywhere:-uninstall)
+- Added settings (/function sitanywhere:-settings)
+- Added dialog menus! (1.21.6+) Accessible via the pause menu. You will find infos about the datapack version, supported MC versions, settings, changelog, links and uninstall button
+- Added translatability! However, it only supports English for now.
+- Made compatible from 1.20 to 26.3 with only ONE datapack! - 3 years of version support B-) 
+# BUG FIXES & TECHNICAL CHANGES
+- Fixed for 26.3
+- Rewriten the whole datapack to have better naming, files, ...
+- Small optimisation changes in all selectors
+- Changed player position when sitting: now always sit on top of the block and not a little inside
+- Removed all advancement icons in 1.21.6+, all infos are in the new dialog menus
+- Removed changelog from advancements in all versions, you'll only be able to see it in 1.21.6+ with the new dialog menus

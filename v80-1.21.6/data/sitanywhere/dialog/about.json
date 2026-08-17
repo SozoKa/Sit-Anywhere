@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Sit Anywhere!",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "sitanywhere.about.description",
+        "fallback": "Allows you to sit anywhere you'd like!"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "sitanywhere.about.infos",
+        "fallback": "§f§lv%s\n§7By §cSozoKa\n\n§7Made for §f%s\n§7but may work on newer versions!\n",
+        "with": [ 
+          "§l3.0.0",
+          "1.20 - 26.3"
+        ]
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": "Modrinth",
+      "tooltip": "§7§ohttps://modrinth.com/datapack/sit-anywhere!",
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/datapack/sit-anywhere!"
+      }
+    },
+    {
+      "label": "YouTube",
+      "tooltip": "§7§ohttps://youtube.com/@SozoKa",
+      "action": {
+        "type": "open_url",
+        "url": "https://youtube.com/@SozoKa"
+      }
+    },
+    {
+      "label": {
+        "translate": "sitanywhere.issues",
+        "fallback": "Issues"
+      },
+      "tooltip": "§7§ohttps://github.com/SozoKa/Sit-Anywhere/issues",
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/SozoKa/Sit-Anywhere/issues"
+      }
+    },
+    {
+      "label": {
+        "translate": "sitanywhere.changelog",
+        "fallback": "Changelog"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "sitanywhere:changelog"
+      }
+    },
+    {
+      "label": {
+        "translate": "sitanywhere.settings",
+        "fallback": "Settings"
+      },
+      "tooltip": {
+        "translate": "sitanywhere.need_op",
+        "fallback": "§cNeed OP permissions!"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function sitanywhere:settings/dialog/open"
+      }
+    },
+    {
+      "label": {
+        "translate": "sitanywhere.uninstall",
+        "fallback": "Uninstall"
+      },
+      "tooltip": {
+        "translate": "sitanywhere.need_op",
+        "fallback": "§cNeed OP permissions!"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function sitanywhere:-uninstall"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "global:root",
+  "criteria": {
+    "Install a datapack made by SozoKa": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
