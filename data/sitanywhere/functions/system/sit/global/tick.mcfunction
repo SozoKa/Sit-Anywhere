@@ -3,7 +3,7 @@
 execute as @a[scores={sitanywhere_sneak_timer=1..},tag=!is_sitting,predicate=!sitanywhere:is_sneaking] run scoreboard players remove @s sitanywhere_sneak_timer 1
 # if player is not sitting, is sneaking, and is looking down
 # and if player has no interaction entity near, then run try function
-execute as @a[tag=!is_sitting,predicate=sitanywhere:is_sneaking,x_rotation=85..90] at @s unless entity @e[tag=sitanywhere_sit,tag=global,distance=...01,type=interaction] run function sitanywhere:system/sit/global/try
+execute as @a[tag=!is_sitting,predicate=sitanywhere:is_sneaking,x_rotation=85..90] at @s unless entity @e[tag=sitanywhere_sit,tag=global,distance=...01,type=interaction] unless block ~ ~-1 ~ air run function sitanywhere:system/sit/global/try
 
 ## KILL INTERACTION ENTITIES IF PLAYER DO NOT MEET CONDITIONS ANYMORE
 execute as @a[tag=sitanywhere_testfor_global,x_rotation=..85] at @s run function sitanywhere:system/sit/global/stop_test

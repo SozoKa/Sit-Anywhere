@@ -10,6 +10,11 @@
   "body": [
     {
       "type": "minecraft:plain_message",
+      "contents": "§l3.1.0 | 1.19.4 - 26.3 (2026/08/19)\n§7- After testing, I noticed that the datapack was compatible with 1.19.4! But there's no way it could be compatible with older versions. So it's official: the supported versions are: 1.19.4 -> Forever (I hope)\n- Added a condition for \"global\" sitting for consistency\n- Added a confirmation window when you click on \"uninstall\" in the dialogs\n- Completed the transition to make the datapack fully translatable. EVERYTHING is now supported.\n- Now with translations in French, Spanish, Dutch, Portuguese, Italian, Japanese, Korean and Chinese!\nThe translation may be inaccurate as I only speak English and French. If you notice any errors, please let me know!\nIf you would like to translate this project into your own language, feel free to create the translation file and send it to me!",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
       "contents": "§l3.0.0 | 1.20 - 26.3 (2026/08/17)\n§7§l# QUALITY OF LIFE\n§7- Added uninstall method (/function sitanywhere:-uninstall)\n§7- Added settings (/function sitanywhere:-settings)\n§7- Added dialog menus! (1.21.6+) Accessible via the pause menu. You will find infos about the datapack version, supported MC versions, settings, changelog, links and uninstall button\n§7- Added translatability! However, it only supports English for now.\n§7- Made compatible from 1.20 to 26.3 with only ONE datapack! - 3 years of version support B-) \n§7§l# BUG FIXES & TECHNICAL CHANGES\n§7- Fixed for 26.3\n§7- Rewriten the whole datapack to have better naming, files, ...\n§7- Small optimisation changes in all selectors\n§7- Changed player position when sitting: now always sit on top of the block and not a little inside\n§7- Removed all advancement icons in 1.21.6+, all infos are in the new dialog menus\n§7- Removed changelog from advancements in all versions, you'll only be able to see it in 1.21.6+ with the new dialog menus",
       "width": 300
     },

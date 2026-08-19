@@ -1,17 +1,52 @@
 {
-	"display": {
-		"icon": {
-			"item": "minecraft:mangrove_stairs"
-		},
-		"title": "Sit Anywhere!",
-		"description": "§8Made for §c1.20 - 26.3\n§8v3.0.0\n\n§7Look all the way down, quickly double tap sneak, right-click... Boom, you now sit on the block!\n\nYou can also just stand on a slab or a stair block and right-click it!\n\n§8by §cSozoKa",
-		"show_toast": false,
-		"announce_to_chat": false
-	},
-	"parent": "sozoka:me",
-	"criteria": {
-		"Install \"SIT ANYWHERE\" datapack": {
-			"trigger": "minecraft:tick"
-		}
-	}
+  "display": {
+    "icon": {
+      "item": "minecraft:mangrove_stairs"
+    },
+    "title": "Sit Anywhere!",
+    "description": [
+      {
+        "translate": "sitanywhere.made_for",
+        "fallback": "Made for %s",
+        "with": [
+          {
+            "text": "1.19.4 - 26.3",
+            "color": "red"
+          }
+        ],
+        "color": "dark_gray"
+      },
+      "\n",
+      {
+        "text": "v3.1.0",
+        "color": "dark_gray"
+      },
+      "\n\n",
+      {
+        "translate": "sitanywhere.about.explanations",
+        "fallback": "Look all the way down, quickly double tap sneak, right-click... Boom, you now sit on the block!\n\nYou can also just stand on a slab or a stair block and right-click it!",
+        "color": "gray"
+      },
+      "\n\n",
+      {
+        "translate": "sitanywhere.by",
+        "fallback": "By %s",
+        "with": [
+          {
+            "text": "SozoKa",
+            "color": "red"
+          }
+        ],
+        "color": "dark_gray"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "sozoka:me",
+  "criteria": {
+    "Install \"SIT ANYWHERE\" datapack": {
+      "trigger": "minecraft:tick"
+    }
+  }
 }

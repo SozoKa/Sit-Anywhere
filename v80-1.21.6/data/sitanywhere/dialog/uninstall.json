@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "Sit Anywhere! - ",
+    "extra": [
+      {
+        "translate": "sitanywhere.uninstall",
+        "fallback": "Uninstall"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "sitanywhere.uninstall.are_you_sure",
+        "fallback": "Are you sure?"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "sitanywhere.uninstall.explanations",
+        "fallback": "Clicking 'Yes' will remove all scoreboards that make this datapack work on your world/server.\n\nPlayers won't be able to sit down anymore unless you reload the datapack.\n\nTo ensure the datapack is properly uninstalled, disable/remove/uninstall it immediately after confirming."
+      },
+      "width": 300
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "yes": {
+    "label": {
+      "translate": "gui.yes"
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "function sitanywhere:-uninstall"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "gui.cancel"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "sitanywhere:about"
+    }
+  }
+}

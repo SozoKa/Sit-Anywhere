@@ -1,12 +1,45 @@
 {
-	"id": "sit-anywhere",
-	"pack": {
-		"pack_format": 15,
-		"supported_formats": [15, 9999],
-		"min_format": 15,
+  "id": "sit-anywhere",
+  "pack": {
+    "pack_format": 12,
+    "supported_formats": [
+      12,
+      9999
+    ],
+    "min_format": 12,
     "max_format": 9999,
-		"description": "§8By §cSozoKa §7for §d1.20-26.3 §8- §7Allows you to sit anywhere you'd like!"
-	},
+    "description": [
+      {
+        "translate": "sitanywhere.by",
+        "fallback": "By %s",
+        "with": [
+          {
+            "text": "SozoKa",
+            "color": "red"
+          }
+        ],
+        "color": "dark_gray"
+      },
+      " - ",
+      {
+        "translate": "sitanywhere.made_for",
+        "fallback": "Made for %s",
+        "with": [
+          {
+            "text": "1.19.4 - 26.3",
+            "color": "light_purple"
+          }
+        ],
+        "color": "dark_gray"
+      },
+      "\n",
+      {
+        "translate": "sitanywhere.about.description",
+        "fallback": "Allows you to sit anywhere you'd like!",
+        "color": "gray"
+      }
+    ]
+  },
 	"overlays": {
 		"entries": [
 			{

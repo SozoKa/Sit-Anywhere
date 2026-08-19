@@ -4,6 +4,48 @@
   "body": [
     {
       "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "v3.1.0",
+          "bold": true
+        },
+        "\n",
+        {
+          "translate": "sitanywhere.by",
+          "fallback": "By %s",
+          "with": [
+            {
+              "text": "SozoKa",
+              "color": "red"
+            }
+          ],
+          "color": "gray",
+          "bold": false
+        },
+        "\n\n",
+        {
+          "translate": "sitanywhere.made_for",
+          "fallback": "Made for %s",
+          "with": [
+            {
+              "text": "1.19.4 - 26.3",
+              "color": "white"
+            }
+          ],
+          "color": "gray",
+          "bold": false
+        },
+        "\n",
+        {
+          "translate": "sitanywhere.may_work",
+          "fallback": "but may work on newer versions!",
+          "color": "gray",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
       "contents": {
         "translate": "sitanywhere.about.description",
         "fallback": "Allows you to sit anywhere you'd like!"
@@ -13,12 +55,8 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "translate": "sitanywhere.about.infos",
-        "fallback": "§f§lv%s\n§7By §cSozoKa\n\n§7Made for §f%s\n§7but may work on newer versions!\n",
-        "with": [ 
-          "§l3.0.0",
-          "1.20 - 26.3"
-        ]
+        "translate": "sitanywhere.about.explanations",
+        "fallback": "Look all the way down, quickly double tap sneak, right-click... Boom, you now sit on the block!\n\nYou can also just stand on a slab or a stair block and right-click it!"
       },
       "width": 300
     }
@@ -68,7 +106,8 @@
       },
       "tooltip": {
         "translate": "sitanywhere.need_op",
-        "fallback": "§cNeed OP permissions!"
+        "fallback": "Need OP permissions!",
+        "color": "red"
       },
       "action": {
         "type": "minecraft:run_command",
@@ -82,11 +121,12 @@
       },
       "tooltip": {
         "translate": "sitanywhere.need_op",
-        "fallback": "§cNeed OP permissions!"
+        "fallback": "Need OP permissions!",
+        "color": "red"
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function sitanywhere:-uninstall"
+        "command": "dialog show @s sitanywhere:uninstall"
       }
     }
   ],
